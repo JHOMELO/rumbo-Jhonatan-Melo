@@ -134,6 +134,8 @@ nav ul li a {
     text-align: center;
     padding: 100px 0;
     background: url(../img/bg-destinos.png);
+    background-size: cover;
+
 }
 #destinos .container h2 {
     color: #e8f00c;
@@ -146,6 +148,11 @@ nav ul li a {
     margin-top: 70px;
     margin-bottom: -50px;
 }
+#destinos .container .row .irtem-destinos img {
+    transition: .4s;
+}
+#destinos .container .row .irtem-destinos:hover img {
+    transform: rotate(-360deg);
 #destinos .container .row .irtem-destinos {
     position: relative
 }
